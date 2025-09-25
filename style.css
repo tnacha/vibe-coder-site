@@ -123,7 +123,8 @@ main {
 .project-card img {
     width: 100%;
     height: 220px; /* Slightly taller images */
-    object-fit: cover;
+    object-fit: contain; /* Ensure full image is visible */
+    background-color: #FDFBF6; /* Light cream background for whitespace */
     display: block;
     border-bottom: 3px solid #F97316; /* Orange line under image */
 }
